@@ -18,6 +18,7 @@ namespace WpfApp1
 
         public string[] GetNewStudentAndQuestion()
         {
+            //test change
             //Create all the neccesary variables for getting data in the SQL DB.
             var sqlConn1 = new SqlConnection(_connectionString);
             //Get and track questions asked.
